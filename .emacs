@@ -1,0 +1,6 @@
+(defvar coq-prog-name "~/.emacs.d/coq-emacs.bat")
+(require 'proof-site "~/.emacs.d/lisp/PG/generic/proof-site")
+(add-to-list 'load-path "~/.emacs.d/evil")
+(setq evil-want-abbrev-expand-on-insert-exit nil)
+(require 'evil)
+(evil-mode 1)

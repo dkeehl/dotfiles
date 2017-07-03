@@ -6,6 +6,8 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls -ho --color=auto'
+alias tmux='tmux -2'
+
 PS1='\W \$ '
 
 HISTCONTROL=ignoreboth

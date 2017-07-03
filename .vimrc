@@ -6,4 +6,9 @@ set softtabstop=2 "number of spaces in tab when editing
 set expandtab     "tabs are spaces
 set shiftwidth=2  "auto indention size
 
-let &colorcolumn="81,".join(range(121, 999), ",")
+set t_Co=256
+colorscheme onedark
+
+"this unsets the last search pattern register by hit enter.
+nnoremap <silent><CR> :noh<CR><CR>
+
