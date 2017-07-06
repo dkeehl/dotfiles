@@ -6,7 +6,7 @@ set softtabstop=2 "number of spaces in tab when editing
 set expandtab     "tabs are spaces
 set shiftwidth=2  "auto indention size
 
-set t_Co=256
+"set termguicolors
 colorscheme onedark
 
 "this unsets the last search pattern register by hit enter.
