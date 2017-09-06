@@ -7,6 +7,8 @@
 
 alias ls='ls -ho --color=auto'
 alias tmux='tmux -2'
+alias v='vim'
+alias info='info --vi-keys'
 
 PS1='\W \$ '
 
